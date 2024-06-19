@@ -1,12 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './header.css';
+import './header.css'; // Import your custom CSS file here
 
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container-fluid">
-        {/* <NavLink className="navbar-brand" to="/">Anu's Portfolio</NavLink> */}
+      <div className="container">
+        <NavLink className="navbar-brand" to="/">Anu's Portfolio</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -33,7 +33,7 @@ const Header = () => {
             <li className="nav-item">
               <NavLink activeClassName="active" className="nav-link" to="/contact">Contact</NavLink>
             </li>
-            {/* Add more navigation links for other pages */}
+      
           </ul>
         </div>
       </div>
