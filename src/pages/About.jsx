@@ -12,7 +12,7 @@ function About() {
               <img src= {image} alt="Profile" />
               <h2>Anuktha</h2>
               <h4>Qualifications</h4>
-              <p>Bachelor's in Computer Science</p>
+                         <p>Masters in Arts</p>
               <p>Self-taught MERN Stack Developer</p>
             </div>
           </div>
