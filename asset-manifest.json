@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anuPortfolio/static/css/main.55b8f20e.css",
-    "main.js": "/anuPortfolio/static/js/main.efc1caf7.js",
+    "main.js": "/anuPortfolio/static/js/main.3f31966a.js",
     "static/js/213.310a7a13.chunk.js": "/anuPortfolio/static/js/213.310a7a13.chunk.js",
     "static/js/732.d3fab435.chunk.js": "/anuPortfolio/static/js/732.d3fab435.chunk.js",
     "static/media/pro2.mp4": "/anuPortfolio/static/media/pro2.5179a71e67465dfcc469.mp4",
@@ -29,12 +29,12 @@
     "static/media/fa-v4compatibility.woff2": "/anuPortfolio/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/anuPortfolio/index.html",
     "main.55b8f20e.css.map": "/anuPortfolio/static/css/main.55b8f20e.css.map",
-    "main.efc1caf7.js.map": "/anuPortfolio/static/js/main.efc1caf7.js.map",
+    "main.3f31966a.js.map": "/anuPortfolio/static/js/main.3f31966a.js.map",
     "213.310a7a13.chunk.js.map": "/anuPortfolio/static/js/213.310a7a13.chunk.js.map",
     "732.d3fab435.chunk.js.map": "/anuPortfolio/static/js/732.d3fab435.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.55b8f20e.css",
-    "static/js/main.efc1caf7.js"
+    "static/js/main.3f31966a.js"
   ]
 }
