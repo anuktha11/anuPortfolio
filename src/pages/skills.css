@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .skills {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('https://img.freepik.com/premium-photo/side-view-sunlit-workspace-table-with-modern-light-grey-laptop-digital-tablet-coffee-cup-big-window-background-with-city-view-3d-rendering_688884-61.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
+  
+  .container {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(44, 41, 41);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    margin-left: 10px;
+    height: 25px;
+    background-color: #918d8d;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #007bff;
+  }
+  
+  .stars {
+    font-size: 24px;
+  }
+  
+  .stars span {
+    color: #adaaaa; /* Grey color for empty stars */
+  }
+  
+  .stars span.filled-star {
+    color: #fdd835 !important; /* Yellow color for filled stars */
+  }
+  

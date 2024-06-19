@@ -1,0 +1,86 @@
+.resume {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.lead {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+ul.skills-list li {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+ul ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.print-buttons {
+  margin-top: 20px;
+}
+
+/* Hide print and download buttons on the printed page */
+@media print {
+  .print-buttons {
+    display: none !important; /* Important to ensure this overrides any other styles */
+  }
+}
