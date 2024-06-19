@@ -5,11 +5,11 @@ import '@fortawesome/fontawesome-free/css/all.css';
 function Home() {
   return (
     <div className='home'>
-      <div className='letters'>
+{/*       <div className='letters'>
         <div className='letter'>M</div>
         <div className='letter'>E</div>
         <div className='letter'>R</div>
-        <div className='letter'>N</div>
+        <div className='letter'>N</div> */}
       </div>
       <div className='intro-section'>
         <h4>Hello there!</h4>
