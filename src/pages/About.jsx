@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import image from '../Assets/image.jpeg'
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
         <div className="row align-items-center">
           <div className="col-md-4 text-center">
             <div className="profile">
-              <img src="https://via.placeholder.com/150" alt="Profile" />
+              <img src= {image} alt="Profile" />
               <h2>Anuktha</h2>
               <h4>Qualifications</h4>
               <p>Bachelor's in Computer Science</p>
