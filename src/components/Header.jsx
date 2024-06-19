@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
-        <NavLink className="navbar-brand" to="/">Anu's Portfolio</NavLink>
+         
         <button 
           className="navbar-toggler" 
           type="button" 
