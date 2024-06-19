@@ -33,7 +33,7 @@ const Resume = () => {
               <p className="lead">Self-learned MERN Stack Developer</p>
               <p>Email: anukthavr@example.com | Phone: +1234567890</p>
               <p>
-                Portfolio: <a href="https://anuktha11.github.io/anuPortfolio/">My Portfolio</a> <br/>
+                Portfolio: <a href="https://anuktha11.github.io/anuPortfolio/">MyPortfolio</a> <br/>
                 LinkedIn: <a href="https://www.linkedin.com/in/anuktha-v-r-41631b262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="btn btn-primary">Link</a> |
                 GitHub: <a href="https://github.com/anuktha11">Link</a>
               </p>
