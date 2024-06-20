@@ -22,10 +22,10 @@ const Contact = () => {
     };
 
     emailjs.send(
-     'service_1rvcdpm',    // Replace with your EmailJS Service ID
-  'template_mxute9e',   // Replace with your EmailJS Template ID
+     'service_1rvcdpm',     
+  'template_mxute9e',    
   templateParams,
-  'yDMPxP6FboZcs8owM'        // Replace with your EmailJS User ID 
+  'yDMPxP6FboZcs8owM'         
     )
     .then(response => {
       console.log('Email sent successfully:', response.status, response.text);
