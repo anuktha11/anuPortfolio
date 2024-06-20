@@ -16,7 +16,7 @@ import pro10Video from "../Assets/projects/pro10.mp4";
 
 const Projects = () => {
   const staticProjects = [
-    // Add more static projects
+     
   ];
 
   const dynamicProjects = [
@@ -74,7 +74,7 @@ const Projects = () => {
     },
     
 
-    // Add more dynamic projects
+    
   ];
 
   const allProjects = [...dynamicProjects, ...staticProjects];
