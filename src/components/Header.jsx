@@ -1,9 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Ensure Bootstrap JavaScript is imported
-import './header.css'; // Import your custom CSS file here
-
+import 'bootstrap/dist/css/bootstrap.min.css';  
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  
+import './header.css';  
 const Header = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
