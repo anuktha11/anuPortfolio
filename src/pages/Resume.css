@@ -80,9 +80,8 @@ hr {
   margin-top: 20px;
 }
 
-/* Hide print and download buttons on the printed page */
+ 
 @media print {
   .print-buttons {
-    display: none !important; /* Important to ensure this overrides any other styles */
-  }
+    display: none !important;  
 }
