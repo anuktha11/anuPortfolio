@@ -11,7 +11,7 @@ const Certificates = () => {
   const [showModal, setShowModal] = useState(false);
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
-  // Array of certificates
+   
   const certificates = [
     {
       title: "Certificate 1",
@@ -37,7 +37,7 @@ const Certificates = () => {
       thumbnailUrl: certi4,
       imageUrl: certi4
     },
-    // Add more certificates as needed
+     
   ];
 
   const handleThumbnailClick = (certificate) => {
@@ -63,7 +63,7 @@ const Certificates = () => {
         </Row>
       </Container>
 
-      {/* Modal for displaying enlarged image */}
+       
       <Modal show={showModal} onHide={() => setShowModal(false)} size="xl">
         <Modal.Body>
           <img
